@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj": {}
+    "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
         "projectName": "VirtualAssistant.Api",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",

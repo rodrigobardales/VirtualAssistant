@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LKHkYifrGHKfjXMUjZUu/n1TYvQBFJqfb1ijXDOvkatBAO0EgLSGlPzblAD8mxmzeji9gb4GKFuXtHEtJIVATA==",
+  "dgSpecHash": "popIx6EkXmi3qS107dfCf5a5qHsF4W2njHKZsQTAsb0xeb97lri72PcLtQC9LOYa1zKsb2dk+OL+AzFQY+nv4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
+  "projectFilePath": "C:\\Users\\Rodrigo\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.Api\\VirtualAssistant.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
