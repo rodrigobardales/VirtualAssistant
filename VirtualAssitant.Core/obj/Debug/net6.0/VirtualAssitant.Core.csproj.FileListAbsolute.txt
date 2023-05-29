@@ -1,0 +1,15 @@
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.csproj.AssemblyReference.cache
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.AssemblyInfoInputs.cache
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.AssemblyInfo.cs
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.csproj.CoreCompileInputs.cache
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\bin\Debug\net6.0\VirtualAssitant.Core.exe
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\bin\Debug\net6.0\VirtualAssitant.Core.deps.json
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\bin\Debug\net6.0\VirtualAssitant.Core.runtimeconfig.json
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\bin\Debug\net6.0\VirtualAssitant.Core.dll
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\bin\Debug\net6.0\VirtualAssitant.Core.pdb
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.dll
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\refint\VirtualAssitant.Core.dll
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.pdb
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\VirtualAssitant.Core.genruntimeconfig.cache
+C:\Users\Plex\Documents\UNIVERIDAD\Vanguardia\proyecto\VirtualAssistant\VirtualAssitant.Core\obj\Debug\net6.0\ref\VirtualAssitant.Core.dll
