@@ -17,5 +17,6 @@ namespace VirtualAssitant.Core.Entities
         public string Destiny { get; set; }
         public int Capacity { get; set; }
         public Category Category { get; set; }
+        public int categoryId { get; set; }
     }
 }
