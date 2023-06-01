@@ -9,8 +9,8 @@ namespace VirtualAssitant.Core.EventManager
 {
     internal interface IMyEventService
     {
-        Task<OperationResult<MyEvent>> AddEventAsync(string FlightNumber);
-        Task<OperationResult<MyEvent>> DeleteEventAsync(string FlightNumber);
+        Task<OperationResult<MyEvent>> AddEventAsync(MyEvent myevent);
+        Task<OperationResult<MyEvent>> DeleteEventAsync(int eventId);
         Task<OperationResult<IReadOnlyList<MyEvent>>> GetAllAsync();
     }
 }

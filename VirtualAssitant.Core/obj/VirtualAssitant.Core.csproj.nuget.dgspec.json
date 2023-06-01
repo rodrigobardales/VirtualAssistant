@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj": {}
+    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj": {
+    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj",
         "projectName": "VirtualAssitant.Core",
-        "projectPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj",
-        "packagesPath": "C:\\Users\\Plex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssitant.Core\\obj\\",
+        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj",
+        "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Plex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.60.0.3017, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

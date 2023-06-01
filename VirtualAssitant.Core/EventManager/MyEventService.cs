@@ -5,23 +5,53 @@ using System.Text;
 using System.Threading.Tasks;
 using VirtualAssitant.Core.Entities;
 
+
 namespace VirtualAssitant.Core.EventManager
 {
     public class MyEventService : IMyEventService
     {
-        Task<OperationResult<MyEvent>> IMyEventService.AddEventAsync(string FlightNumber)
+        private readonly IRepository<MyEvent> myeventrepository;
+        
+        Task<OperationResult<MyEvent>> IMyEventService.AddEventAsync(MyEvent myevent)
         {
             throw new NotImplementedException();
         }
 
-        Task<OperationResult<MyEvent>> IMyEventService.DeleteEventAsync(string FlightNumber)
+        async Task<OperationResult<MyEvent>> IMyEventService.DeleteEventAsync(int eventId)
         {
-            throw new NotImplementedException();
+            var existingEvent = await myeventrepository.GetByIdAsync(eventId);
+
+            if (existingEvent == null)
+            {
+                return new OperationResult<MyEvent>(new Error
+                {
+                    Code = ErrorCode.NotFound,
+                    Message = "Event does not exist"
+                });
+            }
+
+            try
+            {
+                await myeventrepository.DeleteAsync(existingEvent);
+                await myeventrepository.SaveChangesAsync();
+
+                return new OperationResult<MyEvent>(existingEvent);
+            }
+            catch (Exception ex)
+            {
+                return new OperationResult<MyEvent>(new Error
+                {
+                    Code = ErrorCode.InternalError,
+                    Message = "Error occurred while deleting the event",
+                    Exception = ex
+                });
+            }
+
         }
 
-        Task<OperationResult<IReadOnlyList<MyEvent>>> IMyEventService.GetAllAsync()
+        async Task<OperationResult<IReadOnlyList<MyEvent>>> IMyEventService.GetAllAsync()
         {
-            throw new NotImplementedException();
+            return (await this.myeventrepository.AllAsync()).ToList();
         }
     }
 }

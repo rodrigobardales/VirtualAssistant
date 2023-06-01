@@ -13,5 +13,6 @@ namespace VirtualAssitant.Core.Entities
         public DateOnly EventDate { get; set; }
         public string FLightNumber { get; set; }
         public Flight Flight { get; set; }
+        public int FlightId { get; set; }
     }
 }
