@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jey9V2caktfZzixEFd2rq9gyjMiZzH0FIl/fmLcV+3Q8TxcWcvIyLXWx+1x7atvU9WaRVdn1DNJ8UikHHK10yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\google.apis\\1.60.0\\google.apis.1.60.0.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\google.apis.auth\\1.60.0\\google.apis.auth.1.60.0.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\google.apis.calendar.v3\\1.60.0.3017\\google.apis.calendar.v3.1.60.0.3017.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\google.apis.core\\1.60.0\\google.apis.core.1.60.0.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
