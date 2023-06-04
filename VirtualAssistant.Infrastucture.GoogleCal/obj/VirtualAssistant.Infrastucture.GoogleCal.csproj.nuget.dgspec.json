@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj",
+        "projectName": "VirtualAssistant.Infrastucture.GoogleCal",
+        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj",
+        "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Auth.Mvc": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.60.0.3017, )"
+            },
+            "Google.Apis.Core": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
