@@ -11,4 +11,8 @@
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.60.0.3017" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EventManager\" />
+  </ItemGroup>
+
 </Project>
