@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VirtualAssistant.Infrastucture.GoogleCal")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("VirtualAssistant.ApiBueno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("VirtualAssistant.Infrastucture.GoogleCal")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VirtualAssistant.Infrastucture.GoogleCal")]
+[assembly: System.Reflection.AssemblyProductAttribute("VirtualAssistant.ApiBueno")]
+[assembly: System.Reflection.AssemblyTitleAttribute("VirtualAssistant.ApiBueno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

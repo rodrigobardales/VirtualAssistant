@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj": {}
+    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj": {
+    "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj",
-        "projectName": "VirtualAssistant.Infrastucture.GoogleCal",
-        "projectPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\VirtualAssistant.Infrastucture.GoogleCal.csproj",
+        "projectUniqueName": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj",
+        "projectName": "VirtualAssistant.ApiBueno",
+        "projectPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj",
         "packagesPath": "C:\\Users\\Plex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.Infrastucture.GoogleCal\\obj\\",
+        "outputPath": "C:\\Users\\Plex\\Documents\\UNIVERIDAD\\Vanguardia\\proyecto\\VirtualAssistant\\VirtualAssistant.ApiBueno\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,28 +42,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Google.Apis": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[1.60.0, )"
+              "version": "[7.0.5, )"
             },
-            "Google.Apis.Auth": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[1.60.0, )"
-            },
-            "Google.Apis.Auth.Mvc": {
-              "target": "Package",
-              "version": "[1.60.0, )"
-            },
-            "Google.Apis.Calendar.v3": {
-              "target": "Package",
-              "version": "[1.60.0.3017, )"
-            },
-            "Google.Apis.Core": {
-              "target": "Package",
-              "version": "[1.60.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -78,6 +66,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
