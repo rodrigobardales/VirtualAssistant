@@ -11,6 +11,6 @@ namespace VirtualAssitant.Core.LocationManager
     {
         Task<OperationResult<Location>> AddAsync(Location location);
         Task<OperationResult<IReadOnlyList<Location>>> GetByCity(string city);
-        Task<OperationResult<IReadOnlyList<Location>>> GetByCategory(string category);
+        Task<OperationResult<IReadOnlyList<Location>>> GetByCategory(int categoryId);
     }
 }
