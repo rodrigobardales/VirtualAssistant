@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAssistant.Api", "VirtualAssistant.Api\VirtualAssistant.Api.csproj", "{633F859F-2ACE-4FD0-B914-45434598F26B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAssitant.Core", "VirtualAssitant.Core\VirtualAssitant.Core.csproj", "{1ED109C5-CCDE-4830-A899-75A67640358D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualAssistant.Infrastucture.GoogleCal", "VirtualAssistant.Infrastucture.GoogleCal\VirtualAssistant.Infrastucture.GoogleCal.csproj", "{238B35DA-DEAC-4110-83CA-69F637533EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAssistant.Infrastucture.GoogleCal", "VirtualAssistant.Infrastucture.GoogleCal\VirtualAssistant.Infrastucture.GoogleCal.csproj", "{238B35DA-DEAC-4110-83CA-69F637533EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualAssistant.ApiBueno", "VirtualAssistant.ApiBueno\VirtualAssistant.ApiBueno.csproj", "{8C77C657-09D5-4DB3-B297-C5E99CB30310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{633F859F-2ACE-4FD0-B914-45434598F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{633F859F-2ACE-4FD0-B914-45434598F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{633F859F-2ACE-4FD0-B914-45434598F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{633F859F-2ACE-4FD0-B914-45434598F26B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1ED109C5-CCDE-4830-A899-75A67640358D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ED109C5-CCDE-4830-A899-75A67640358D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED109C5-CCDE-4830-A899-75A67640358D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{238B35DA-DEAC-4110-83CA-69F637533EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238B35DA-DEAC-4110-83CA-69F637533EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238B35DA-DEAC-4110-83CA-69F637533EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C77C657-09D5-4DB3-B297-C5E99CB30310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C77C657-09D5-4DB3-B297-C5E99CB30310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C77C657-09D5-4DB3-B297-C5E99CB30310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C77C657-09D5-4DB3-B297-C5E99CB30310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
