@@ -13,6 +13,7 @@ namespace VirtualAssistant.ApiBueno.Controllers
         [HttpGet(Name ="GetCategorias")]
         public IEnumerable<CategoriaDto> GetCategories()
         {
+            
             return (IEnumerable<CategoriaDto>)Ok();
         }
     }

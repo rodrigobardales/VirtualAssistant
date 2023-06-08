@@ -9,9 +9,9 @@ namespace VirtualAssitant.Core.FlightManager
 {
     public interface IFlightService
     {
-        Task<OperationResult<Flight>> AddAsync(Flight flight);
-        Task<OperationResult<IReadOnlyList<Flight>>> GetByOrigin(string origin);
-        Task<OperationResult<IReadOnlyList<Flight>>> GetByDestination(string destiny);
-        Task<OperationResult<IReadOnlyList<Flight>>> GetByFlightNumber(string FlightNumber);
+        Task<OperationResult<Flight2>> AddAsync(Flight2 flight);
+        Task<OperationResult<IReadOnlyList<Flight2>>> GetByOrigin(string origin);
+        Task<OperationResult<IReadOnlyList<Flight2>>> GetByDestination(string destiny);
+        Task<OperationResult<IReadOnlyList<Flight2>>> GetByFlightNumber(string FlightNumber);
     }
 }

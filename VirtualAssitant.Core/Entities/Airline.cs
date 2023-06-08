@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace VirtualAssitant.Core.Entities
 {
-    public class Flight
+    public class Airline
     {
-        public string Number { get; set; }
+        public string Name { get; set; }
         public string Iata { get; set; }
         public string Icao { get; set; }
-        public object Codeshared { get; set; }
     }
 }

@@ -9,22 +9,22 @@ namespace VirtualAssitant.Core.FlightManager
 {
     public class FlightService : IFlightService
     {
-        public Task<OperationResult<Flight>> AddAsync(Flight flight)
+        public Task<OperationResult<Flight2>> AddAsync(Flight2 flight)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<IReadOnlyList<Flight>>> GetByDestination(string destiny)
+        public Task<OperationResult<IReadOnlyList<Flight2>>> GetByDestination(string destiny)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<IReadOnlyList<Flight>>> GetByFlightNumber(string FlightNumber)
+        public Task<OperationResult<IReadOnlyList<Flight2>>> GetByFlightNumber(string FlightNumber)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<IReadOnlyList<Flight>>> GetByOrigin(string origin)
+        public Task<OperationResult<IReadOnlyList<Flight2>>> GetByOrigin(string origin)
         {
             throw new NotImplementedException();
         }
