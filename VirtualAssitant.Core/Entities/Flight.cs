@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,15 +9,16 @@ namespace VirtualAssitant.Core.Entities
 {
     public class Flight
     {
-        public int Id { get; set; }
-        public string FlightNumber { get; set; }
-        public string Airline { get; set; }
-        public DateOnly FlightDate { get; set; }
-        public string FligthState { get; set; }
-        public string Origin { get; set; }
-        public string Destiny { get; set; }
-        public int Capacity { get; set; }
-        public Category Category { get; set; }
-        public int categoryId { get; set; }
+        [JsonProperty("number")]
+        public string Number { get; set; }
+
+        [JsonProperty("iata")]
+        public string Iata { get; set; }
+
+        [JsonProperty("icao")]
+        public string Icao { get; set; }
+
+        [JsonProperty("codeshared")]
+        public Codeshared Codeshared { get; set; }
     }
 }
