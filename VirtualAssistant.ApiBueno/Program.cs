@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AviationStackClient>();
-builder.Services.AddScoped<GeopifyClient>();
+builder.Services.AddScoped<IGeopifyClient, GeopifyClient>();
 builder.Services.AddScoped<GoogleCalendarService>();
 builder.Services.AddScoped<IFlightService, FlightService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();

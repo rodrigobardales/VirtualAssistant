@@ -5,7 +5,7 @@ using VirtualAssitant.Core.Entities;
 
 namespace VirtualAssitant.Core.Client
 {
-    public class GeopifyClient : IDisposable
+    public class GeopifyClient : IDisposable, IGeopifyClient
     {
         private readonly HttpClient _client;
 

@@ -6,9 +6,9 @@ namespace VirtualAssitant.Core.PlaceManager
 {
     public class PlaceService : IPlaceService
 	{
-		private readonly GeopifyClient _client;
+		private readonly IGeopifyClient _client;
 
-		public PlaceService(GeopifyClient client)
+		public PlaceService(IGeopifyClient client)
 		{
 			_client = client;
 		}
