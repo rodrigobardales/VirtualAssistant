@@ -1596,35 +1596,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krist\\.nuget\\packages\\": {}
+    "/Users/jufergom/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krist\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj",
+      "projectUniqueName": "/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/VirtualAssistant.ApiBueno.csproj",
       "projectName": "VirtualAssistant.ApiBueno",
-      "projectPath": "C:\\Users\\krist\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.ApiBueno\\VirtualAssistant.ApiBueno.csproj",
-      "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krist\\Source\\Repos\\VirtualAssistant\\VirtualAssistant.ApiBueno\\obj\\",
+      "projectPath": "/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/VirtualAssistant.ApiBueno.csproj",
+      "packagesPath": "/Users/jufergom/.nuget/packages/",
+      "outputPath": "/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\krist\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jufergom/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\krist\\Source\\Repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj": {
-              "projectPath": "C:\\Users\\krist\\Source\\Repos\\VirtualAssistant\\VirtualAssitant.Core\\VirtualAssitant.Core.csproj"
+            "/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/VirtualAssitant.Core.csproj": {
+              "projectPath": "/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/VirtualAssitant.Core.csproj"
             }
           }
         }
@@ -1677,7 +1675,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }

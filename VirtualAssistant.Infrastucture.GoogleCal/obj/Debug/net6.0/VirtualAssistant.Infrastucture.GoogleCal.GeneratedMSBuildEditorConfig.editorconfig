@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VirtualAssistant.Infrastucture.GoogleCal
-build_property.ProjectDir = C:\Users\krist\Source\Repos\VirtualAssistant\VirtualAssistant.Infrastucture.GoogleCal\
+build_property.ProjectDir = /Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/

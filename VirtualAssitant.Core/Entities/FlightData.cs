@@ -1,36 +1,43 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace VirtualAssitant.Core.Entities
 {
     public class FlightData
     {
-        [JsonProperty("flight_date")]
-        public string FlightDate { get; set; }
+        [JsonProperty("airport")]
+        public string Airport { get; set; }
 
-        [JsonProperty("flight_status")]
-        public string FlightStatus { get; set; }
+        [JsonProperty("timezone")]
+        public string Timezone { get; set; }
 
-        [JsonProperty("departure")]
-        public FlightInfo Departure { get; set; }
+        [JsonProperty("iata")]
+        public string Iata { get; set; }
 
-        [JsonProperty("arrival")]
-        public FlightInfo Arrival { get; set; }
+        [JsonProperty("icao")]
+        public string Icao { get; set; }
 
-        [JsonProperty("airline")]
-        public Airline Airline { get; set; }
+        [JsonProperty("terminal")]
+        public string Terminal { get; set; }
 
-        [JsonProperty("flight")]
-        public Flight Flight { get; set; }
+        [JsonProperty("gate")]
+        public string Gate { get; set; }
 
-        [JsonProperty("aircraft")]
-        public object Aircraft { get; set; }
+        [JsonProperty("delay")]
+        public object Delay { get; set; }
 
-        [JsonProperty("live")]
-        public object Live { get; set; }
+        [JsonProperty("scheduled")]
+        public DateTime Scheduled { get; set; }
+
+        [JsonProperty("estimated")]
+        public DateTime Estimated { get; set; }
+
+        [JsonProperty("actual")]
+        public object Actual { get; set; }
+
+        [JsonProperty("estimated_runway")]
+        public object EstimatedRunway { get; set; }
+
+        [JsonProperty("actual_runway")]
+        public object ActualRunway { get; set; }
     }
 }
