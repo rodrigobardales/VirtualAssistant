@@ -1,0 +1,12 @@
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.csproj.AssemblyReference.cache
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.AssemblyInfoInputs.cache
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.AssemblyInfo.cs
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.csproj.CoreCompileInputs.cache
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/bin/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.deps.json
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/bin/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/bin/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.pdb
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/refint/VirtualAssistant.Infrastucture.GoogleCal.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.pdb
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.Infrastucture.GoogleCal/obj/Debug/net6.0/ref/VirtualAssistant.Infrastucture.GoogleCal.dll

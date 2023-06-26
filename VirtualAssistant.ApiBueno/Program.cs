@@ -1,3 +1,4 @@
+using VirtualAssistant.Infrastucture.GoogleCal;
 using VirtualAssitant.Core.CategoryManager;
 using VirtualAssitant.Core.Client;
 using VirtualAssitant.Core.FlightManager;
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AviationStackClient>();
 builder.Services.AddScoped<GeopifyClient>();
+builder.Services.AddScoped<GoogleCalendarService>();
 builder.Services.AddScoped<IFlightService, FlightService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IPlaceService, PlaceService>();

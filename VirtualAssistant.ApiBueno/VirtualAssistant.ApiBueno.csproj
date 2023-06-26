@@ -30,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="categories.json" />
+    <Content Remove="googleSecret.json" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="categories.json">
@@ -37,5 +38,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="googleSecret.json" />
   </ItemGroup>
 </Project>

@@ -64,3 +64,13 @@ C:/Users/krist/Source/Repos/VirtualAssistant/VirtualAssitant.Core/obj/Debug/net6
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/obj/Debug/net6.0/VirtualAssitant.Core.pdb
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/obj/Debug/net6.0/VirtualAssitant.Core.genruntimeconfig.cache
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/obj/Debug/net6.0/ref/VirtualAssitant.Core.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/Google.Apis.Auth.Mvc.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.Mvc.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.Razor.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.Helpers.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.WebPages.Deployment.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.WebPages.Razor.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/System.Web.WebPages.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/Microsoft.Web.Infrastructure.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssitant.Core/bin/Debug/net6.0/VirtualAssistant.Infrastucture.GoogleCal.pdb

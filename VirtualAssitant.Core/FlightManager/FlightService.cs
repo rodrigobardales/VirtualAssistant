@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Google.Apis.Calendar.v3.Data;
+using VirtualAssistant.Infrastucture.GoogleCal;
 using VirtualAssitant.Core.Client;
 using VirtualAssitant.Core.Entities;
 
@@ -12,14 +14,19 @@ namespace VirtualAssitant.Core.FlightManager
     {
         private readonly AviationStackClient _client;
 
-        public FlightService(AviationStackClient client)
+        private readonly GoogleCalendarService _calendarService;
+
+        public FlightService(AviationStackClient client, GoogleCalendarService calendarService)
         {
             _client = client;
+            _calendarService = calendarService;
         }
 
-        public async Task<OperationResult> BookFlightAsync(string flightNumber)
+        public async Task<OperationResult<Event>> BookFlightAsync(string flightNumber)
         {
-            return new OperationResult(true);
+            var flight = (await _client.GetFlightsAsync()).Data.Where(flight => flight.Flight.Number == flightNumber).FirstOrDefault();
+            var result = _calendarService.BookEvent($"Vuelo {flightNumber}", flight.Departure.Scheduled, flight.Arrival.Scheduled);
+            return new OperationResult<Event>(result);
         }
 
         public async Task<OperationResult<IReadOnlyList<FlightResponse>>> GetFlightsAsync()

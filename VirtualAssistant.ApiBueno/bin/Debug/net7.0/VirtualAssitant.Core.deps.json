@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "VirtualAssitant.Core/1.0.0": {
         "dependencies": {
-          "Google.Apis.Calendar.v3": "1.60.0.3017"
+          "Google.Apis.Calendar.v3": "1.60.0.3017",
+          "VirtualAssistant.Infrastucture.GoogleCal": "1.0.0"
         },
         "runtime": {
           "VirtualAssitant.Core.dll": {}
@@ -41,6 +42,18 @@
           }
         }
       },
+      "Google.Apis.Auth.Mvc/1.60.0": {
+        "dependencies": {
+          "Google.Apis.Auth": "1.60.0",
+          "Microsoft.AspNet.Mvc": "5.2.9"
+        },
+        "runtime": {
+          "lib/net45/Google.Apis.Auth.Mvc.dll": {
+            "assemblyVersion": "1.60.0.0",
+            "fileVersion": "1.60.0.0"
+          }
+        }
+      },
       "Google.Apis.Calendar.v3/1.60.0.3017": {
         "dependencies": {
           "Google.Apis": "1.60.0",
@@ -64,12 +77,76 @@
           }
         }
       },
+      "Microsoft.AspNet.Mvc/5.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.AspNet.WebPages": "3.2.9"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.9.0",
+            "fileVersion": "5.2.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.9": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.9": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.9",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61129.10"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.2": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.2.27524"
           }
+        }
+      },
+      "VirtualAssistant.Infrastucture.GoogleCal/1.0.0": {
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0",
+          "Google.Apis.Auth.Mvc": "1.60.0",
+          "Google.Apis.Calendar.v3": "1.60.0.3017",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "runtime": {
+          "VirtualAssistant.Infrastucture.GoogleCal.dll": {}
         }
       }
     }
@@ -94,6 +171,13 @@
       "path": "google.apis.auth/1.60.0",
       "hashPath": "google.apis.auth.1.60.0.nupkg.sha512"
     },
+    "Google.Apis.Auth.Mvc/1.60.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vbEvFM0cKo1pIs2y1ctYRSc9F2ESM6kjBd+NMW2i5grCTtZl6VE6vF0JxGPRy7uAu+2inHzZteODjSisvA3CaQ==",
+      "path": "google.apis.auth.mvc/1.60.0",
+      "hashPath": "google.apis.auth.mvc.1.60.0.nupkg.sha512"
+    },
     "Google.Apis.Calendar.v3/1.60.0.3017": {
       "type": "package",
       "serviceable": true,
@@ -108,12 +192,45 @@
       "path": "google.apis.core/1.60.0",
       "hashPath": "google.apis.core.1.60.0.nupkg.sha512"
     },
+    "Microsoft.AspNet.Mvc/5.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcekKshCAh7kTWSMZPavQStSZQF/QmjEjO2gVWGITEd0/t5eRlb+ZLDE+az2qY1bZ8L6Hz0OCNeS0uzXtJcK5w==",
+      "path": "microsoft.aspnet.mvc/5.2.9",
+      "hashPath": "microsoft.aspnet.mvc.5.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QOJEnEw3xp+t5lMvYR5nGCF4CfZpHqr2p8uZOBEgDZoB6r2txtSj6581YNr+/dOHjI3YRlo1QAKGQoSohbQ/KA==",
+      "path": "microsoft.aspnet.razor/3.2.9",
+      "hashPath": "microsoft.aspnet.razor.3.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yByb721lwv8YFsx1oKA5CLKXa89XVbVMkPafS4bg/bPelBEgChq/coFBQEkA4kwcabG7AR56w3vapnoZUfr2Cw==",
+      "path": "microsoft.aspnet.webpages/3.2.9",
+      "hashPath": "microsoft.aspnet.webpages.3.2.9.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
       "path": "newtonsoft.json/13.0.2",
       "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "VirtualAssistant.Infrastucture.GoogleCal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

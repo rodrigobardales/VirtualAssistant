@@ -21,4 +21,7 @@
     <None Remove="Client\" />
     <None Remove="PlaceManager\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualAssistant.Infrastucture.GoogleCal\VirtualAssistant.Infrastucture.GoogleCal.csproj" />
+  </ItemGroup>
 </Project>
