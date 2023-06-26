@@ -1,6 +1,7 @@
 using VirtualAssitant.Core.CategoryManager;
 using VirtualAssitant.Core.Client;
 using VirtualAssitant.Core.FlightManager;
+using VirtualAssitant.Core.PlaceManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AviationStackClient>();
+builder.Services.AddScoped<GeopifyClient>();
 builder.Services.AddScoped<IFlightService, FlightService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IPlaceService, PlaceService>();
 
 var app = builder.Build();
 

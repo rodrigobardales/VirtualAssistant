@@ -14,9 +14,11 @@
   <ItemGroup>
     <Folder Include="EventManager\" />
     <Folder Include="Client\" />
+    <Folder Include="PlaceManager\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Client\" />
+    <None Remove="PlaceManager\" />
   </ItemGroup>
 </Project>
