@@ -1,0 +1,47 @@
+﻿[
+  {
+    "key": "accommodation.hotel",
+    "singularName": "hotel",
+    "pluralName": "hoteles"
+  },
+  {
+    "key": "commercial.supermarket",
+    "singularName": "supermercado",
+    "pluralName": "supermercados"
+  },
+  {
+    "key": "commercial.supermarket",
+    "singularName": "supermercado",
+    "pluralName": "supermercados"
+  },
+  {
+    "key": "catering",
+    "singularName": "restaurante",
+    "pluralName": "restaurantes"
+  },
+  {
+    "key": "education.school",
+    "singularName": "escuela",
+    "pluralName": "escuelas"
+  },
+  {
+    "key": "education.school",
+    "singularName": "universidad",
+    "pluralName": "universidades"
+  },
+  {
+    "key": "service.financial.bank",
+    "singularName": "banco",
+    "pluralName": "bancos"
+  },
+  {
+    "key": "religion",
+    "singularName": "iglesia",
+    "pluralName": "iglesias"
+  },
+  {
+    "key": "commercial.shopping_mall",
+    "singularName": "centro comercial",
+    "pluralName": "centros comerciales"
+  }
+]

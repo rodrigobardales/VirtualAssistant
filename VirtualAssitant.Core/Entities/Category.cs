@@ -8,9 +8,10 @@ namespace VirtualAssitant.Core.Entities
 {
     public class Category
     {
-        public int Id { get; set; }
-        public string CategoryName { get; set; }
+        public string Key { get; set; }
 
-        public ICollection<Location>? Locations { get; set; }
+        public string SingularName { get; set; }
+
+        public string PluralName { get; set; }
     }
 }

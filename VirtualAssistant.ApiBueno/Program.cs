@@ -1,3 +1,4 @@
+using VirtualAssitant.Core.CategoryManager;
 using VirtualAssitant.Core.Client;
 using VirtualAssitant.Core.FlightManager;
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AviationStackClient>();
 builder.Services.AddScoped<IFlightService, FlightService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 
@@ -22,6 +24,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(options => options.AllowAnyOrigin());
 
 app.UseAuthorization();
 

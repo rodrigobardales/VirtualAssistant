@@ -28,4 +28,14 @@
   <ItemGroup>
     <Folder Include="QueryParameters\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="categories.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="categories.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

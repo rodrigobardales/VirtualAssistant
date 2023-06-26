@@ -4,26 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VirtualAssitant.Core.Entities;
+using Newtonsoft.Json;
 
 namespace VirtualAssitant.Core.CategoryManager
 {
     public class CategoryService : ICategoryService
     {
-        public Task<OperationResult<Category>> AddAsync(Category category)
+        public OperationResult<List<Category>> GetAll()
         {
-            Category category1 = new Category();
-            category1.CategoryName = category.CategoryName;
-            return Task.FromResult(new OperationResult<Category>(category1));
-        }
-
-        public Task<OperationResult<IReadOnlyList<Category>>> GetAllAsync()
-        {
-            Category category1 = new Category();
-            category1.CategoryName = "Category1";
-            return Task.FromResult(new OperationResult<IReadOnlyList<Category>>(new List<Category>() 
-            { 
-                category1 
-            }));
+            string categoriesFileContent = File.ReadAllText("categories.json");
+            var categories = JsonConvert.DeserializeObject<List<Category>>(categoriesFileContent);
+            return new OperationResult<List<Category>>(categories);
         }
     }
 }

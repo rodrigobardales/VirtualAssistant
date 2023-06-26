@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using VirtualAssistant.ApiBueno.DataTransferObjects;
+using VirtualAssitant.Core.CategoryManager;
 using VirtualAssitant.Core.Entities;
 
 namespace VirtualAssistant.ApiBueno.Controllers
@@ -9,11 +10,17 @@ namespace VirtualAssistant.ApiBueno.Controllers
     [Route("[controller]")]
     public class CategoriesController : ControllerBase
     {
+        private readonly ICategoryService _categoryService;
+
+        public CategoriesController(ICategoryService categoryService)
+        {
+            _categoryService = categoryService;
+        }
 
         [HttpGet(Name ="GetCategorias")]
-        public IEnumerable<CategoriaDto> GetCategories()
+        public IActionResult GetCategories()
         {
-            return (IEnumerable<CategoriaDto>)Ok();
+            return Ok(_categoryService.GetAll());
         }
     }
 }

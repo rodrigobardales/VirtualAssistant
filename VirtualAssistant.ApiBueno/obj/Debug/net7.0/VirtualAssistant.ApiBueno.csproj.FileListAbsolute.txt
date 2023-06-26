@@ -154,3 +154,4 @@ C:/Users/krist/Source/Repos/VirtualAssistant/VirtualAssistant.ApiBueno/obj/Debug
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/obj/Debug/net7.0/VirtualAssistant.ApiBueno.pdb
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/obj/Debug/net7.0/VirtualAssistant.ApiBueno.genruntimeconfig.cache
 /Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/obj/Debug/net7.0/ref/VirtualAssistant.ApiBueno.dll
+/Users/jufergom/Projects/VirtualAssistant/VirtualAssistant.ApiBueno/bin/Debug/net7.0/categories.json

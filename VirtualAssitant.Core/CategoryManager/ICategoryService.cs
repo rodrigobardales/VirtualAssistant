@@ -9,7 +9,6 @@ namespace VirtualAssitant.Core.CategoryManager
 {
     public interface ICategoryService
     {
-        Task<OperationResult<Category>> AddAsync(Category category);
-        Task<OperationResult<IReadOnlyList<Category>>> GetAllAsync();
+        OperationResult<List<Category>> GetAll();
     }
 }
